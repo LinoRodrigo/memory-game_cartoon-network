@@ -1,0 +1,46 @@
+.login-game-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.header-login-game {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.header-login-game > img {
+    width: 100px;
+}
+
+.input-login {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 300px;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.button-login {
+    background-color: orangered;
+    color: white;
+    font-size: 1em;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+.button-login:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
